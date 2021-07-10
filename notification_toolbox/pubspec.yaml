@@ -1,0 +1,33 @@
+name: notification_toolbox
+description: An Android app to manage notification settings.
+
+publish_to: 'none'
+
+version: 0.1.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  notification_toolbox_private:
+    path: '../notification_toolbox_private_dummy'
+  installed_apps:
+    git:
+      url: 'git://github.com/hacker1024/installed_apps.git'
+      ref: '8515fa67c8275d9c3f0491deab4fbe7a634c9301'
+  shared_preferences: ^2.0.6
+  flutter_search_bar: ^3.0.0-dev.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  lint: ^1.5.3
+
+flutter:
+  uses-material-design: true
+
+dependency_overrides:
+  notification_toolbox_private:
+    path: '../notification_toolbox_private'
