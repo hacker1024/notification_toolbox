@@ -19,9 +19,9 @@ this effects you, build the app with a `targetSdkVersion` of `27`.
 
 ## Screenshots
 
-<img alt="Home" src="doc/screenshots/home.jpg" width="320"/>
-<img alt="Channels" src="doc/screenshots/channels.jpg" width="320"/>
-<img alt="Importance selection" src="doc/screenshots/importance_selection.jpg" width="320"/>
+<img alt="Home" src="/notification_toolbox/doc/screenshots/home.jpg" width="320"/>
+<img alt="Channels" src="/notification_toolbox/doc/screenshots/channels.jpg" width="320"/>
+<img alt="Importance selection" src="/notification_toolbox/doc/screenshots/importance_selection.jpg" width="320"/>
 
 ## F.A.Q.
 
