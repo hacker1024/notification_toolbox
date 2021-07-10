@@ -27,7 +27,3 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-
-dependency_overrides:
-  notification_toolbox_private:
-    path: '../notification_toolbox_private'
